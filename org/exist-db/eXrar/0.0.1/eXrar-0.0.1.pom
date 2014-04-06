@@ -22,10 +22,14 @@
   </dependencies>
   
   <repositories>
-    <repository>
-      <id>eXistDB</id>
-      <url>https://raw.github.com/eXist-db/mvn-repo/master/</url>
-    </repository>
+      <repository>
+          <id>eXistDB</id>
+          <url>https://raw.github.com/eXist-db/mvn-repo/master/</url>
+      </repository>
+      <repository>
+          <id>mvn-repo</id>
+          <url>https://raw.github.com/gev/mvn-repo/master/</url>
+      </repository>
   </repositories>
 
     <distributionManagement>
